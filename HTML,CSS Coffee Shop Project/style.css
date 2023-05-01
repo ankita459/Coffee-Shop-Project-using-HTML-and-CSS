@@ -1,0 +1,232 @@
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Header styles */
+header {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+header h1 {
+	float: left;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+header nav ul li a {
+	font-size: 20px;
+	padding: 10px;
+	transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Banner styles */
+#banner {
+	background-image: url('https://img.freepik.com/free-photo/cup-coffee-with-pile-coffee-beans_1112-438.jpg?w=1060&t=st=1682957657~exp=1682958257~hmac=1a58f29525da7e657af77e0e2bcaebdbe24d2c851af3456f32a0f1c721c75a27');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+#banner h2 {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+#banner p {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	font-size: 20px;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #000000;
+}
+
+/* Menu styles */
+#menu {
+	background-color: #f1f1f1;
+	padding: 50px;
+}
+
+#menu h2 {
+	font-size: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#menu li {
+	flex-basis: 300px;
+	margin: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: center;
+}
+
+#menu li h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#menu li p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+/* About styles */
+#about {
+	padding: 50px;
+}
+
+#about h2 {
+	font-size: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#about p {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+/* Contact styles */
+#contact {
+	background-color: #f1f1f1;
+	padding: 50px;
+}
+
+#contact h2 {
+	font-size: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#contact form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact label {
+	font-size: 20px;
+	flex-basis: 250px;
+    margin-right: 20px;
+}
+
+#contact input, #contact textarea {
+padding: 10px;
+font-size: 16px;
+border-radius: 5px;
+border: none;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+flex-basis: 100%;
+margin-bottom: 20px;
+}
+
+#contact textarea {
+resize: none;
+height: 150px;
+}
+
+#contact button[type="submit"] {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 30px;
+font-size: 20px;
+transition: all 0.3s ease;
+}
+
+#contact button[type="submit"]:hover {
+background-color: #fff;
+color: #333;
+cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+footer p {
+margin: 0;
+font-size: 16px;
+line-height: 1.5;
+}
+
+footer a {
+color: #fff;
+font-weight: bold;
+}
